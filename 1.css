@@ -1,0 +1,58 @@
+.head{
+  text-align: center;
+  color: blue;
+}
+.login, .send, .file,.success {
+  text-align: center;
+  color: green;
+}
+.error {
+  text-align: center;
+  color: red;
+  border: 3px red;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #bcf;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=file], select {
+  width: 100%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #bcf;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=file]:hover {
+  background-color: #fef;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4AF;
+  color: white;
+ 
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 3px solid #4AF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4ab;
+}
+
+div {
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+}
